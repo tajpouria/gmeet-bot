@@ -1,1 +1,4 @@
 run.sh
+screenshots/*.png
+screenshots/*.htm*
+recordings/*.mp4

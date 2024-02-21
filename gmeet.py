@@ -237,13 +237,13 @@ async def join_meet():
     try:
         driver.find_element(
             By.XPATH,
-            '//*[@id="yDmH0d"]/c-wiz/div/div/div[14]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[1]/div[3]/label/input',
+            '//*[@id="yDmH0d"]/c-wiz/div/div/div[24]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[1]/div[3]/label/input',
         ).click()
         sleep(2)
 
         driver.find_element(
             By.XPATH,
-            '//*[@id="yDmH0d"]/c-wiz/div/div/div[14]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[1]/div[3]/label/input',
+            '//*[@id="yDmH0d"]/c-wiz/div/div/div[24]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[1]/div[3]/label/input',
         ).send_keys("TEST")
         sleep(2)
         driver.save_screenshot("screenshots/give_non_registered_name.png")
@@ -252,19 +252,19 @@ async def join_meet():
         sleep(5)
         driver.find_element(
             By.XPATH,
-            '//*[@id="yDmH0d"]/c-wiz/div/div/div[14]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[2]/div[1]/div[1]/button/span',
+            '//*[@id="yDmH0d"]/c-wiz/div/div/div[24]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[2]/div[1]/div[1]/button/span',
         ).click()
         sleep(5)
     except:
-        print("authentification already done")
+        print("authentication already done")
         sleep(5)
         # take screenshot
-        driver.save_screenshot("screenshots/authentification_already_done.png")
+        driver.save_screenshot("screenshots/authentication_already_done.png")
         print(driver.title)
 
         driver.find_element(
             By.XPATH,
-            '//*[@id="yDmH0d"]/c-wiz/div/div/div[14]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[2]/div[1]/div[1]/button',
+            '//*[@id="yDmH0d"]/c-wiz/div/div/div[24]/div[3]/div/div[2]/div[4]/div/div/div[2]/div[1]/div[2]/div[1]/div[1]/button',
         ).click()
         sleep(5)
 
