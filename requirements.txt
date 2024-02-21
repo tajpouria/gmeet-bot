@@ -4,5 +4,7 @@ pathlib==1.0.1
 pyaudio==0.2.11
 selenium==3.141.0
 wave==0.0.2
+numpy==1.26.4
 sounddevice
 opencv-python-headless
+google-cloud-speech

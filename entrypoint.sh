@@ -1,2 +1,2 @@
 Xvfb :99 -screen 0 1920x1080x24 &
-export DISPLAY=:99; python3 gmeet.py
+export DISPLAY=:99; python3 src/gmeet.py

@@ -67,7 +67,9 @@ RUN pip3 install \
     pyaudio \
     click \
     opencv-python \
-    Pillow
+    Pillow \
+    google-cloud-speech
+
 
 RUN echo 'user ALL=(ALL:ALL) NOPASSWD:ALL' >> /etc/sudoers
 
